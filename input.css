@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+    .letsSee {
+        @apply px-6;
+    }
+}

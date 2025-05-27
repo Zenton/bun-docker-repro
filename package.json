@@ -1,0 +1,13 @@
+{
+  "name": "example-bun-weirdness",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "with-npx": "npx @tailwindcss/cli -i ./input.css --minify",
+    "with-bunx": "bunx --bun @tailwindcss/cli -i ./input.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "4.1.7",
+    "@tailwindcss/cli": "4.1.7"
+  }
+}

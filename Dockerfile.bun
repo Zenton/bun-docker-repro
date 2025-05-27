@@ -1,0 +1,6 @@
+FROM oven/bun:latest
+
+WORKDIR /build
+
+COPY . /build
+RUN bun install --frozen-lockfile && bun run with-npx
